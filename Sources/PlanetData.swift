@@ -37,7 +37,7 @@ enum SolarData {
                 "表面坑坑洼洼，很像月球。"
             ]),
         Planet(
-            id: "venus", nameCN: "金星", nameEN: "Venus", emoji: "🌕",
+            id: "venus", nameCN: "金星", nameEN: "Venus", emoji: "💛",
             style: .cloudy, colors: ["E8C97A", "D9A441", "F3E1A6"],
             displayRadius: 0.32, orbitRadius: 3.6, orbitPeriod: 9, spinPeriod: 12,
             axialTilt: 2.6, hasRing: false,

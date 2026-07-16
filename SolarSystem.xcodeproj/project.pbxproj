@@ -9,20 +9,24 @@
 /* Begin PBXBuildFile section */
 		1C6C2E90C58CE4FBBC0A0636 /* TextureGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2DFFB807F30DFBD46FF6F2 /* TextureGenerator.swift */; };
 		1E398B7619A1D9865ACCB680 /* PlanetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248DB7F885C01604521DE367 /* PlanetData.swift */; };
+		6283C940913656EB08B79C81 /* QuizEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359CC088EE15E808A0077C4 /* QuizEngine.swift */; };
 		6D488BE53186BF1F3258D0BF /* SolarSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE354D9C6453B2C52BEDCF68 /* SolarSystemApp.swift */; };
 		6EB3E80AAAE9349BA542C154 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BDE46BEACAFB919FDE6151 /* Models.swift */; };
 		A0F0BD9D84716785F51451BF /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E82421AC7E2197E1FBDEB /* SpaceView.swift */; };
 		A95C224B049745C13D1CAF46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45751B95E8742FFDA30BE769 /* ContentView.swift */; };
+		D7BD50007A753CFDE6E2E2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384EA2FAC2FC5D25312D673C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16BDE46BEACAFB919FDE6151 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		248DB7F885C01604521DE367 /* PlanetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetData.swift; sourceTree = "<group>"; };
 		342E82421AC7E2197E1FBDEB /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
+		384EA2FAC2FC5D25312D673C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C2DFFB807F30DFBD46FF6F2 /* TextureGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureGenerator.swift; sourceTree = "<group>"; };
 		45751B95E8742FFDA30BE769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6A68FE7BD9ABAFF1A8DECA22 /* 太阳系探险.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "太阳系探险.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A68FE7BD9ABAFF1A8DECA22 /* SolarSystem.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE354D9C6453B2C52BEDCF68 /* SolarSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemApp.swift; sourceTree = "<group>"; };
+		F359CC088EE15E808A0077C4 /* QuizEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -37,9 +41,11 @@
 		64D3EA0AA189DF0782A9DD9F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				384EA2FAC2FC5D25312D673C /* Assets.xcassets */,
 				45751B95E8742FFDA30BE769 /* ContentView.swift */,
 				16BDE46BEACAFB919FDE6151 /* Models.swift */,
 				248DB7F885C01604521DE367 /* PlanetData.swift */,
+				F359CC088EE15E808A0077C4 /* QuizEngine.swift */,
 				BE354D9C6453B2C52BEDCF68 /* SolarSystemApp.swift */,
 				342E82421AC7E2197E1FBDEB /* SpaceView.swift */,
 				3C2DFFB807F30DFBD46FF6F2 /* TextureGenerator.swift */,
@@ -50,7 +56,7 @@
 		C7D1055A17C3448233CF69A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A68FE7BD9ABAFF1A8DECA22 /* 太阳系探险.app */,
+				6A68FE7BD9ABAFF1A8DECA22 /* SolarSystem.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +69,7 @@
 			buildConfigurationList = 7A535430F9705BB923EB4057 /* Build configuration list for PBXNativeTarget "SolarSystem" */;
 			buildPhases = (
 				A4CF624EEA2DB2EC8165CDFD /* Sources */,
+				6B0F727DC392EFE441E77741 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -72,7 +79,7 @@
 			packageProductDependencies = (
 			);
 			productName = SolarSystem;
-			productReference = 6A68FE7BD9ABAFF1A8DECA22 /* 太阳系探险.app */;
+			productReference = 6A68FE7BD9ABAFF1A8DECA22 /* SolarSystem.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -83,6 +90,12 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4A9CC2B81D34F965B204F813 = {
+						DevelopmentTeam = Y6Z8UXDHU2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 3CE24FEC3E96CA92B129D3DF /* Build configuration list for PBXProject "SolarSystem" */;
 			developmentRegion = en;
@@ -103,6 +116,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		6B0F727DC392EFE441E77741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BD50007A753CFDE6E2E2BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4CF624EEA2DB2EC8165CDFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -111,6 +135,7 @@
 				A95C224B049745C13D1CAF46 /* ContentView.swift in Sources */,
 				6EB3E80AAAE9349BA542C154 /* Models.swift in Sources */,
 				1E398B7619A1D9865ACCB680 /* PlanetData.swift in Sources */,
+				6283C940913656EB08B79C81 /* QuizEngine.swift in Sources */,
 				6D488BE53186BF1F3258D0BF /* SolarSystemApp.swift in Sources */,
 				A0F0BD9D84716785F51451BF /* SpaceView.swift in Sources */,
 				1C6C2E90C58CE4FBBC0A0636 /* TextureGenerator.swift in Sources */,
@@ -154,7 +179,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -166,8 +191,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -182,8 +207,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGNING_ALLOWED = YES;
-				CODE_SIGNING_REQUIRED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6Z8UXDHU2;
@@ -192,18 +215,18 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ricarli.solarsystem;
 				PRODUCT_NAME = "太阳系探险";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -241,7 +264,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -259,8 +282,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -276,8 +299,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGNING_ALLOWED = YES;
-				CODE_SIGNING_REQUIRED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6Z8UXDHU2;
@@ -286,18 +307,18 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ricarli.solarsystem;
 				PRODUCT_NAME = "太阳系探险";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
